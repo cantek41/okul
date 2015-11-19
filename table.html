@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	.con{
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		margin-top: 15%;
+		background-color: white;
+		padding: 10px;
+		border-radius: 5px;
+		border:10px grey solid;
+    
+	}
+	body{
+		background-image: url("http://www.semazen.net/images/fgaleri/umutrehberi.jpg");
+		font-size: 15px;
+	}
+	.etiket{
+		width: 100px;
+		float: left;		
+	}
+	.verigiris{
+		width: 200px;
+		float: left;		
+	}
+	.eleman{
+		width: 100%;
+	}
+
+	.satir{	
+		clear: left;
+		margin-top: 2px;
+		padding-bottom: 5px;
+	}
+
+	.clearfix {
+    overflow: auto;
+}
+</style>
+</head>
+<body>
+<div class="con">
+	<div class="satir">
+		<div class="etiket">Adi</div>
+		<div class="verigiris"> <input type="text" class="eleman" /> </div>
+	</div>
+	<div class="satir">
+		<div class="etiket">Soyad</div>
+		<div class="verigiris"> <input type="text" class="eleman" /> </div>
+	</div>
+	<div class="satir">
+		<div class="etiket">Cinsiyet</div>
+		<div class="verigiris"> 
+		<input type="radio" name="sex"  />Erkek
+		<input type="radio" name="sex" />Kadin </div>
+	</div>
+	<div class="satir">
+		<div class="etiket">Yas</div>
+		<div class="verigiris"> 
+			<select class="verigiris">
+			  <option value="10">10</option>
+			  <option value="20">20</option>
+			  <option value="30">30</option>
+			  <option value="40">40</option>
+			</select>
+		</div>
+	</div>
+	<div class="satir">
+		<input  type="submit" value="Tamam" />
+	</div>
+</div>
+</body>
+</html>
